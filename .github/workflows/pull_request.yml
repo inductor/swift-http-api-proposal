@@ -25,7 +25,7 @@ jobs:
 
   macos-tests:
     name: macOS tests
-    uses: apple/swift-nio/.github/workflows/macos_tests.yml@main
+    uses: inductor/swift-nio/.github/workflows/macos_tests.yml@macos-tests-os-input
     with:
       runner_pool: general
       build_scheme: HTTPAPIProposal-Package
